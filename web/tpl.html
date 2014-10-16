@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DB Admin</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="/js/script.js"></script>
+</head>
+<body>
+<div class="body">
+    <h1>
+        DB Admin
+    </h1>
+    <div class="console_wrapper">
+        <form class="" method="post" action="">
+            <div class="left_block">
+                <div class="window" id="window">
+                    %history%
+                </div>
+                <div class="input_field">
+                    <input name="input_value" type="text" value="" id="command_line" autocomplete="off"/>
+                </div>
+            </div>
+            <div class="right_block">
+                <div>
+                    <label>Database name</label>
+                    <input name="db_name" value="%db_name%" type="text" />
+                </div>
+                <div>
+                    <label>User</label>
+                    <input name="db_user" value="%db_user%" type="text" />
+                </div>
+                <div>
+                    <label>Password</label>
+                    <input name="db_pass" value="%db_pass%" type="text" />
+                </div>
+                <div class="hidden">
+                    <input name="submit" value="Сохранить" type="submit" class="button" />
+                </div>
+                <div class="description">
+                    <label>Available commands:</label>
+                    <div>
+                        1. show tables
+                    </div>
+                    <div>
+                        2. describe `table_name`
+                    </div>
+                    <div>
+                        3. count_rows `table_name`
+                    </div>
+                    <div>
+                        4. add_rows `table_name` `count`
+                    </div>
+                    <div>
+                        5. select_from `table_name`
+                    </div>
+                    <div>
+                        6. clear
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

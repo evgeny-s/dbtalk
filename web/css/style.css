@@ -1,0 +1,63 @@
+.body {
+    margin: 50px auto;
+    width: 1000px;
+}
+
+.body h1 {
+    padding-left: 230px;
+}
+.window {
+    background-color: black;
+    border: 1px solid #ddd;
+    color: white;
+    height: 400px;
+    overflow: auto;
+    width: 600px;
+    font-family: Courier New;
+}
+
+.input_field input[type="text"] {
+    width: 99%;
+    border: 1px solid red;
+}
+
+.left_block, .right_block {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.right_block {
+    padding-left: 50px;
+    vertical-align: top;
+    width: 275px;
+}
+
+.right_block > div {
+    padding-bottom: 15px;
+}
+
+.right_block label {
+    display: block;
+}
+
+.button {
+    background-color: white;
+    border: 1px solid #999;
+}
+
+.hidden {
+    display: none;
+}
+
+.description {
+    padding-top: 30px;
+}
+
+.description label {
+    font-weight: bold;
+}
+
+.console_wrapper {
+    border: 1px solid #ddd;
+    padding: 15px;
+}

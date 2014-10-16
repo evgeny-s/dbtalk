@@ -1,0 +1,35 @@
+>clear<br>complete!<br><br>>show tables;<br>fos_user<br>item<br>item_vacancy<br>setting<br><br><br>>show tables<br><br>>>Empty result<br><br>>show tables<br><br>>>empty result<br><br>>show tables;<br><br>>>empty result<br><br>>show tables<br>fos_user<br>item<br>item_vacancy<br>setting<br><br><br>>describe fos_user<br>Field: id<br>Type: int(11)<br>Null: NO<br>
+                        Key: PRI<br>Default: <br>Extra: auto_increment<br><br>
+                    Field: username<br>Type: varchar(255)<br>Null: NO<br>
+                        Key: <br>Default: <br>Extra: <br><br>
+                    Field: username_canonical<br>Type: varchar(255)<br>Null: NO<br>
+                        Key: UNI<br>Default: <br>Extra: <br><br>
+                    Field: email<br>Type: varchar(255)<br>Null: NO<br>
+                        Key: <br>Default: <br>Extra: <br><br>
+                    Field: email_canonical<br>Type: varchar(255)<br>Null: NO<br>
+                        Key: UNI<br>Default: <br>Extra: <br><br>
+                    Field: enabled<br>Type: tinyint(1)<br>Null: NO<br>
+                        Key: <br>Default: <br>Extra: <br><br>
+                    Field: salt<br>Type: varchar(255)<br>Null: NO<br>
+                        Key: <br>Default: <br>Extra: <br><br>
+                    Field: password<br>Type: varchar(255)<br>Null: NO<br>
+                        Key: <br>Default: <br>Extra: <br><br>
+                    Field: last_login<br>Type: datetime<br>Null: YES<br>
+                        Key: <br>Default: <br>Extra: <br><br>
+                    Field: locked<br>Type: tinyint(1)<br>Null: NO<br>
+                        Key: <br>Default: <br>Extra: <br><br>
+                    Field: expired<br>Type: tinyint(1)<br>Null: NO<br>
+                        Key: <br>Default: <br>Extra: <br><br>
+                    Field: expires_at<br>Type: datetime<br>Null: YES<br>
+                        Key: <br>Default: <br>Extra: <br><br>
+                    Field: confirmation_token<br>Type: varchar(255)<br>Null: YES<br>
+                        Key: <br>Default: <br>Extra: <br><br>
+                    Field: password_requested_at<br>Type: datetime<br>Null: YES<br>
+                        Key: <br>Default: <br>Extra: <br><br>
+                    Field: roles<br>Type: longtext<br>Null: NO<br>
+                        Key: <br>Default: <br>Extra: <br><br>
+                    Field: credentials_expired<br>Type: tinyint(1)<br>Null: NO<br>
+                        Key: <br>Default: <br>Extra: <br><br>
+                    Field: credentials_expire_at<br>Type: datetime<br>Null: YES<br>
+                        Key: <br>Default: <br>Extra: <br><br>
+                    <br><br>>count_rows fos_user<br>32<br><br><br>>count_rows fos_user<br>32<br><br><br>>clear<br>wrong data for DB connection.<br><br><br>
